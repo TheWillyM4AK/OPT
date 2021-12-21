@@ -284,14 +284,14 @@ n3 = x(45)+x(46)+x(47)+x(48)+x(49)+x(50)+x(51)+x(52)+x(53)+x(54)+x(55)+x(56)+x(5
 n4 = x(67)+x(68)+x(69)+x(70)+x(71)+x(72)+x(73)+x(74)+x(75)+x(76)+x(77)+x(78)+x(79)+x(80)+x(81)+x(82)+x(83)+x(84)+x(85)+x(86)+x(87)+x(88);
 n5 = x(89)+x(90)+x(91)+x(92)+x(93)+x(94)+x(95)+x(96)+x(97)+x(98)+x(99)+x(100)+x(101)+x(102)+x(103)+x(104)+x(105)+x(106)+x(107)+x(108)+x(109)+x(110);
 %% Comparaciones
-close all
-figure(2)
-load 'demanda_4.mat' matriz
-hold on
-plot(matriz(:,2),matriz(:,3),'d')
-voronoi(matrizXcg,matrizYcg)
-xlim([0 600]);
-ylim([0 600]);
+% close all
+% figure(2)
+% load 'demanda_4.mat' matriz
+% hold on
+% plot(matriz(:,2),matriz(:,3),'d')
+% voronoi(matrizXcg,matrizYcg)
+% xlim([0 600]);
+% ylim([0 600]);
 %% Declaración de la funcion
 function fun = f_obj(x)
     load 'demanda_1.mat' matriz;
